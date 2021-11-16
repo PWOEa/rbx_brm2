@@ -40,7 +40,7 @@ if (not pcall(function()
     if (not pcall(function()
         library = loadstring(game:HttpGet("https://parr0t.xyz/s/0d7a31d8-d91a-44eb-9c7a-dbacdb22164d.lua", true))();
     end)) then
-        return localPlayer:Kick("An error occurred when attempting to load the UI library, please report this in the discord server - https://parr0t.xyz/discord");
+        return localPlayer:Kick("Ya ne yebu cho sluchilos u parota upal host");
     end;
     
     local function getTarget()
@@ -147,7 +147,7 @@ if (not pcall(function()
         if (not pcall(function()
             loadstring(game:HttpGet("https://parr0t.xyz/s/1c9f412f-1288-4017-9f91-485caa4d8763.lua", true))();
         end)) then
-            return localPlayer:Kick("An error occurred when attempting to load the ESP library, please report this in the discord server - https://parr0t.xyz/discord");
+            return localPlayer:Kick("Ya ne yebu cho sluchilos u parota upal host");
         end;
         
         local folder = window:AddFolder("Combat");do
@@ -227,9 +227,9 @@ if (not pcall(function()
         end;
         
         local folder = window:AddFolder("Credits");do
-            folder:AddLabel({ text = "cnnn/ixb - scripting" });
-            folder:AddLabel({ text = "jan - ui library" });
-            folder:AddLabel({ text = "ic3 - ESP library" });
+            folder:AddLabel({ text = "louze - scripting" });
+            folder:AddLabel({ text = "mat` ebal - homyaka" });
+            folder:AddLabel({ text = "lox - vanya" });
             folder:AddButton({ text = (request and "Join Discord") or "Copy Discord Invite", flag = "joinDiscord", callback = function()
                 if (request) then
                     request({
@@ -242,7 +242,7 @@ if (not pcall(function()
                         Body = httpService:JSONEncode({
                             cmd = "INVITE_BROWSER",
                             args = {
-                                code = "TPnz825M7f"
+                                code = "Dyum3UNBm9"
                             },
                             nonce = httpService:GenerateGUID(false)
                         }),
